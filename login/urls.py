@@ -24,7 +24,7 @@ urlpatterns = [
     #path('', include('test_app.urls')),
     #path('hello/', views.StringView.as_view()),
     #path('', views.IndexView.as_view()),
-    path('login/', views.IndexLoginView.as_view()),
-
+    #path('login/', views.IndexLoginView.as_view()),
+    path('', views.IndexLoginView.as_view()),
     #path('', include())
 ]
